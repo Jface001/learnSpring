@@ -8,6 +8,11 @@ import com.test.dao.UserDao;
  * @Desc:
  */
 public class UserDaoImpl implements UserDao {
+
+    public UserDaoImpl() {
+        System.out.println("UserDaoImpl 对象创建...");
+    }
+
     @Override
     public void save() {
         System.out.println("save running......");
